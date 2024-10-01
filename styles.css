@@ -16,23 +16,23 @@ nav {
     margin-bottom: 10px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
-    
+
 }
 
-a:hover{
-    color:blueviolet;
+a:hover {
+    color: blueviolet;
 }
 
 
-.home_nav{
-    color:yellow;
+.home_nav {
+    color: yellow;
 }
 
-.contact_nav{
-    color:red;
+.contact_nav {
+    color: red;
 }
 
 #heading {
@@ -93,7 +93,8 @@ a:hover{
     margin: 20px;
 }
 
-#links>button , #links > a > button {
+#links>button,
+#links>a>button {
     background-color: blue;
     color: white;
     padding: 10px;
@@ -125,60 +126,66 @@ footer {
 
 #contact_info {
 
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 30px;
-    color:rgb(181, 51, 51);
+    color: rgb(181, 51, 51);
 }
 
-#contact_info > div{
+#contact_info>div {
     background-color: rgb(197, 192, 192);
-    padding:10px;
+    padding: 10px;
+    color: rgb(181, 51, 51);
+
 }
 
-.tel , .mailto , .maps{
+.tel,
+.mailto,
+.maps {
 
-color:rgb(181, 51, 51);
+    color: rgb(181, 51, 51);
+    text-decoration: none;
 }
 
 
-.contact_bg{
+.contact_bg {
     background-color: rgb(215, 206, 206);
-    padding:10px;
+    padding: 10px;
 }
 
-#form_submit{
-    margin: 20px  40px;
-    text-align:center;
-    display:flex;
+#form_submit {
+    margin: 20px 40px;
+    text-align: center;
+    display: flex;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
 }
 
-.form_input{
-    display:flex;
-    gap:10px;
+.form_input {
+    display: flex;
+    gap: 10px;
     justify-content: space-between;
 }
 
 
-.form_input > input, .form_input > textarea{
+.form_input>input,
+.form_input>textarea {
     background-color: rgb(246, 239, 239);
     border-style: none;
     padding: 5px 10px;
-    flex:1;
-    
+    flex: 1;
+
 }
 
-#form_button{
+#form_button {
     text-align: left;
 
 }
 
-#form_button > button{
-background-color: orangered;
-color: white;
-padding:5px 10px;
-border-style: none;
+#form_button>button {
+    background-color: orangered;
+    color: white;
+    padding: 5px 10px;
+    border-style: none;
 }
