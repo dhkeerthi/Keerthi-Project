@@ -123,13 +123,25 @@ footer {
     padding: 20px;
 }
 
-#contact_info{
+#contact_info {
+
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 30px;
     color:rgb(181, 51, 51);
 }
+
+#contact_info > div{
+    background-color: rgb(197, 192, 192);
+    padding:10px;
+}
+
+.tel , .mailto , .maps{
+
+color:rgb(181, 51, 51);
+}
+
 
 .contact_bg{
     background-color: rgb(215, 206, 206);
