@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Playwrite DE Grund", cursive;
+
+}
+
+
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color:blueviolet;
+}
+
+
+.home_nav{
+    color:yellow;
+}
+
+.contact_nav{
+    color:red;
+}
+
+#heading {
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0px;
+}
+
+#name {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+    padding: 0 40px;
+}
+
+
+#intro>div>img {
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+
+
+.description {
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.red_box {
+    background-color: red;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+#links>button , #links > a > button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-style: none;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+/* Conatct me styles */
+
+#heading_1 {
+    background-color: #048360;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0px;
+}
+
+#google_map {
+    background-color: grey;
+    padding: 20px;
+}
+
+#contact_info{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    color:rgb(181, 51, 51);
+}
+
+.contact_bg{
+    background-color: rgb(215, 206, 206);
+    padding:10px;
+}
+
+#form_submit{
+    margin: 20px  40px;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.form_input{
+    display:flex;
+    gap:10px;
+    justify-content: space-between;
+}
+
+
+.form_input > input, .form_input > textarea{
+    background-color: rgb(246, 239, 239);
+    border-style: none;
+    padding: 5px 10px;
+    flex:1;
+    
+}
+
+#form_button{
+    text-align: left;
+
+}
+
+#form_button > button{
+background-color: orangered;
+color: white;
+padding:5px 10px;
+border-style: none;
+}
